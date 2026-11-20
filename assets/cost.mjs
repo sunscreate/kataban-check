@@ -1,0 +1,1 @@
+export function total({price,shipping=0,coupon=0}){for(const n of [price,shipping,coupon])if(!Number.isSafeInteger(n)||n<0||n>10000000)throw new Error('0〜10,000,000の整数で入力してください');if(coupon>price)throw new Error('値引き額が商品価格を超えています');return price+shipping-coupon;}

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kataban-check.pages.dev/sitemap.xml

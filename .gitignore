@@ -1,0 +1,5 @@
+qa/
+operations/
+site-upload.zip
+.env*
+node_modules/
