@@ -1,9 +1,9 @@
 # 状態（2026-11-21）
-- 新規サイトの5ページを実装。計算・内部リンク4テスト合格。
-- Amazon専用トラッキングID作成済み。リンク生成はAmazonの人間確認画面で停止。
-- 広告リンク未掲載。現時点の収益0円。収益性・検索需要規模は未検証。
-- 公開先：GitHub + Cloudflare Pages（予算0円）。公開済み：https://kataban-check.pages.dev/ 。Amazonウェブサイト一覧に追加保存完了。GitHub：https://github.com/sunscreate/kataban-check
-- 既存のサヤミルと教室サイトは変更しない。
-
-- ブラウザ実計算で15,600円と17,000円の差1,400円を確認。スマホ390px横はみ出しなし。
-- 残作業：Amazonツールバーのリンク生成（人間確認停止、表示IDが専用IDと一致するか要確認）・広告設置・Search Console登録。
+- 公開済み：https://kataban-check.pages.dev/ （GitHub + Cloudflare Pages、支出0円）。
+- 5ページ実装。計算・内部リンク4テスト合格。390px表示と実計算確認済み。
+- Amazonウェブサイト一覧への登録済み。公式SiteStripeで取得したMX2400GR / MX2300CR検索リンクを掲載。
+- 専用トラッキングID：katabancheck-22。公開HTMLのURL完全一致・広告表記・追跡IDを確認済み。
+- Google Search Console所有権確認完了。sitemap.xml送信済み。ただし初回ステータスは「取得できませんでした」。curlではHTTP 200、application/xml、5 URLを確認。
+- 実収益・検索流入・成約率は未確認。収益性や検索需要が実証されたとは扱わない。
+- 残作業：Googleの取得・インデックス状況と適格販売の確認。データが集まる前に商品群を大量追加しない。
+- 既存のサヤミルと教室サイトは変更していない。
